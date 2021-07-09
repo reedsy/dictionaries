@@ -1,0 +1,20 @@
+name: Test
+
+on:
+  push:
+    branches:
+    - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+      with:
+        # Use PAT instead of default Github token, because the default
+        # token deliberately will not trigger another workflow run
+        token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+    - name: Tag
+      run: ./tag.sh
