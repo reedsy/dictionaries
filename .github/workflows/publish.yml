@@ -15,6 +15,10 @@ jobs:
       with:
         node-version: '14.x'
         registry-url: 'https://npm.pkg.github.com'
+    - name: Build reencode action
+      run: cd ./.github/actions/reencode-dictionaries && npm install && cd ../../../
+    - name: "Change dictionaries encoding to UTF-8"
+      uses: ./.github/actions/reencode-dictionaries
     - name: Publish
       run: npm publish
       env:
