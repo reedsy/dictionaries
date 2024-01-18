@@ -2,18 +2,18 @@ name: Publish
 
 on:
   push:
-    tags:
-    - '*'
+    branches:
+    - master
 
 jobs:
   build:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-    - uses: actions/checkout@v2
-    - uses: actions/setup-node@v2
+    - uses: actions/checkout@v4
+    - uses: actions/setup-node@v4
       with:
-        node-version: '14.x'
+        node-version: '20.x'
         registry-url: 'https://npm.pkg.github.com'
     - name: Build reencode action
       run: cd ./.github/actions/reencode-dictionaries && npm install && cd ../../../
@@ -22,6 +22,6 @@ jobs:
     - name: "Change dictionaries encoding to UTF-8"
       uses: ./.github/actions/reencode-dictionaries
     - name: Publish
-      run: npm publish
+      run: ./release.sh
       env:
         NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
