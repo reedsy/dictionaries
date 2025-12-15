@@ -1,4 +1,4 @@
-49563
+49643
 0/nm
 0th/pt
 1/n1
@@ -393,6 +393,7 @@ Ameslan/M
 Amgen/M
 Amharic/M
 Amherst/M
+Amidst
 Amie/M
 Amiga/M
 Amish/M
@@ -1489,6 +1490,7 @@ Bruno/M
 Brunswick/M
 Brussels/M
 Brut/M
+Brutalist/SM
 Brutus/M
 Bryan/M
 Bryant/M
@@ -2423,6 +2425,7 @@ Custer/M
 Cuvier/M
 Cuzco/M
 Cybele/M
+Cyber
 Cyclades/M
 Cyclopes/M
 Cyclops/M
@@ -3136,6 +3139,7 @@ Erich/M
 Erick/M
 Ericka/M
 Erickson/M
+Eridani/M
 Eridanus/M
 Erie/M
 Erik/M
@@ -7742,6 +7746,7 @@ Playtex/M
 Pleiades/M
 Pleistocene/M
 Plexiglas/MS
+Plexiglass/M
 Pliny/M
 Pliocene/SM
 Plutarch/M
@@ -8690,6 +8695,7 @@ Schweitzer/M
 Schweppes/M
 Schwinger/M
 Schwinn/M
+Sci-fi/M
 Scientologist/SM
 Scientology/M
 Scipio/M
@@ -9850,6 +9856,7 @@ UT/M
 UTC
 UV/M
 Ubangi/M
+Uber/M
 Ubuntu/M
 Ucayali/M
 Uccello/M
@@ -12370,6 +12377,7 @@ armhole/SM
 armistice/SM
 armlet/MS
 armload/S
+armoire/SM
 armorial
 armour/MDRZGS
 armoured/U
@@ -12613,6 +12621,7 @@ astray
 astride
 astringency/M
 astringent/SMY
+astrograph/SM
 astrolabe/SM
 astrologer/SM
 astrological/Y
@@ -13936,6 +13945,8 @@ biochemistry/M
 biodegradability/M
 biodegrade/DSGB
 biodiversity/M
+bioengineer/GDS
+bioengineering/M
 bioethics/M
 biofeedback/M
 biofilm/MS
@@ -13952,6 +13963,9 @@ biology/M
 biomarker/MS
 biomass/M
 biomedical
+biometrics/M
+biomimetic/S
+biomimicry/M
 bionic/S
 bionically
 bionics/M
@@ -14193,6 +14207,7 @@ blockchain/MS
 blocker/MS
 blockhead/SM
 blockhouse/MS
+blocky/RT
 blog/SM
 blogged
 blogger/MS
@@ -16467,6 +16482,7 @@ choirboy/MS
 choirmaster/SM
 choke/MZGDRS
 chokecherry/SM
+chokehold/SM
 choker/M
 cholecystectomy
 cholecystitis
@@ -16649,6 +16665,7 @@ cirri
 cirrus/M
 cis
 cisgender
+cislunar
 cistern/MS
 cit
 citadel/MS
@@ -17091,6 +17108,7 @@ coffeemaker/SM
 coffeepot/MS
 coffer/SM
 cofferdam/MS
+coffered
 coffin/SMDG
 cog/SM
 cogency/M
@@ -17435,6 +17453,7 @@ compendium/SM
 compensate/DSXGN
 compensated/U
 compensation/M
+compensator/SM
 compensatory
 compere/DSG
 compete/DSG
@@ -18288,6 +18307,7 @@ cosmopolitan/MS
 cosmopolitanism/M
 cosmos/MS
 cosplay
+cosplayer/SM
 cosponsor/GSMD
 cosset/SGD
 cossetted
@@ -18392,6 +18412,7 @@ counterspy/SM
 counterstroke/SM
 countersunk
 countertenor/MS
+countertop/SM
 countervail/GSD
 counterweight/MS
 countess/MS
@@ -18411,6 +18432,7 @@ coup/AS
 coupe/SM
 couple's
 couple/UCGSD
+coupler/SM
 couplet/MS
 coupling/SM
 coupon/SM
@@ -18748,6 +18770,7 @@ crosscut/SM
 crosscutting
 crosser
 crossfire/MS
+crosshairs
 crosshatch/GDS
 crossing/SM
 crossly
@@ -19497,6 +19520,8 @@ defoliate/DSGN
 defoliation/M
 defoliator/MS
 deformity/SM
+defragment/GDS
+defragmentation/M
 defraud/DRZGS
 defrauder/M
 defrayal/M
@@ -20003,6 +20028,7 @@ dices/I
 dicey
 dichotomous
 dichotomy/SM
+dichromatic
 dicier
 diciest
 dick/MRXZS
@@ -20471,6 +20497,7 @@ diva/MS
 divalent
 divan/SM
 dive/MZTGDRS
+divemaster/SM
 diver/M
 diverge/DSG
 divergence/MS
@@ -20514,6 +20541,7 @@ dizzily
 dizziness/M
 dizzy/DRSPTG
 djellaba/MS
+do-gooder/SM
 do/SJMRHZG
 doable
 dob/S
@@ -20659,6 +20687,7 @@ doomster/S
 door's
 door/IS
 doorbell/MS
+doorframe/SM
 doorjamb/S
 doorkeeper/MS
 doorknob/MS
@@ -21159,6 +21188,7 @@ dystopi
 dystopia
 dystopian
 dz
+détente/M
 e'en
 e'er
 e/FDST
@@ -21430,6 +21460,7 @@ ejaculate/GNXDS
 ejaculation/M
 ejaculatory
 eject/SDG
+ejecta
 ejection/MS
 ejector/SM
 eke/DSG
@@ -22849,12 +22880,14 @@ faience/M
 fail/DGJS
 failing/M
 faille/M
+failsafe/SM
 failure/SM
 fain/RT
 faint/SMDRYTGP
 fainthearted
 faintness/M
 fair/MRYTGJPS
+fairgoer/SM
 fairground/MS
 fairing/M
 fairness/UM
@@ -23369,6 +23402,7 @@ finesse/DSMG
 finger/MDGSJ
 fingerboard/SM
 fingering/M
+fingerless
 fingerling/SM
 fingermark/S
 fingernail/SM
@@ -25110,6 +25144,7 @@ glibber
 glibbest
 glibness/M
 glide/DRSMZG
+glidepath/SM
 glider/M
 gliding/M
 glimmer/MDGJS
@@ -25180,6 +25215,7 @@ gluon/S
 glut/MNS
 gluten/M
 glutenous
+glutes
 glutinous/Y
 glutted
 glutting
@@ -25769,6 +25805,7 @@ gull/MDSG
 gullet/MS
 gullibility/M
 gullible
+gullwing/SM
 gully/SM
 gulp/MDRSZG
 gulper/M
@@ -25871,6 +25908,7 @@ gyrfalcon/MS
 gyro/MS
 gyroscope/MS
 gyroscopic
+gyroscopically
 gyve/MGDS
 h'm
 h/NRSXZGVJ
@@ -26319,6 +26357,7 @@ headwaters/M
 headway/M
 headwind/SM
 headword/SM
+headworks
 heady/RTP
 heal/DRHZGS
 healed/U
@@ -29336,6 +29375,7 @@ keybinding/S
 keyboard/ZGSMDR
 keyboarder/M
 keyboardist/SM
+keychain/SM
 keyhole/MS
 keynote/MZGDRS
 keynoter/M
@@ -29421,6 +29461,7 @@ kinds
 kine/S
 kinematic/S
 kinematics/M
+kinesthetic
 kinetic/S
 kinetically
 kinetics/M
@@ -30034,6 +30075,7 @@ lengthen/GD
 lengthily
 lengthiness/M
 lengths
+lengthways
 lengthwise
 lengthy/PRT
 lenience/M
@@ -30418,6 +30460,7 @@ livery/CSM
 liveryman/CM
 liverymen/C
 livestock/M
+livestream/SM
 liveware
 livid/Y
 living/MS
@@ -30432,6 +30475,7 @@ load/AUGSD
 loadable
 loader/MS
 loading's
+loadout/SM
 loaf/MDRSZG
 loafer/M
 loam/M
@@ -30470,6 +30514,7 @@ locator/MS
 locavore/SM
 loci
 lock/MDRSBZG
+lockdown/SM
 locker/M
 locket/MS
 lockjaw/M
@@ -30727,6 +30772,7 @@ lumberman/M
 lumbermen
 lumberyard/SM
 lumen
+lumens
 luminary/SM
 luminescence/M
 luminescent
@@ -31838,6 +31884,7 @@ microdot/SM
 microeconomics/M
 microelectronic/S
 microelectronics/M
+microexpression/SM
 microfiber/MS
 microfiche/M
 microfilm/GMDS
@@ -32822,6 +32869,7 @@ multimillionaire/SM
 multinational/SM
 multipart
 multiparty
+multiplanetary
 multiplayer/M
 multiple/MS
 multiplex/ZGMDRS
@@ -33037,6 +33085,7 @@ nameless/Y
 namely
 nameplate/MS
 namesake/SM
+nametag/SM
 nanny/SM
 nanobot/S
 nanometre/S
@@ -33493,6 +33542,7 @@ nobleness/M
 noblewoman/M
 noblewomen
 nobody/SM
+nock/SM
 nocturnal/Y
 nocturne/MS
 nod/SM
@@ -34757,6 +34807,7 @@ outshout/GDS
 outside/MZRS
 outsider/M
 outsize/MS
+outsized
 outskirt/MS
 outsmart/GDS
 outsold
@@ -36825,6 +36876,7 @@ plywood/M
 pm
 pneumatic
 pneumatically
+pneumatics/M
 pneumococcal
 pneumococci
 pneumococcus
@@ -37930,6 +37982,7 @@ protagonist/SM
 protean
 protect/GVSD
 protected/U
+protectee/SM
 protection/SM
 protectionism/M
 protectionist/MS
@@ -38577,6 +38630,7 @@ radiogram/MS
 radiographer/SM
 radiography/M
 radioisotope/MS
+radiological
 radiologist/SM
 radiology/M
 radioman/M
@@ -38887,6 +38941,7 @@ rebid/S
 rebidding
 rebirth/M
 reboil/SDG
+rebrand/GDS
 rebuild/SG
 rebuke/DSMG
 rebuking/Y
@@ -39051,6 +39106,7 @@ reefer/M
 reek/GMDS
 reel's
 reel/UGDS
+reenactor/SM
 reeve/G
 reexport/SDG
 ref/SZM
@@ -39728,6 +39784,7 @@ rickrack/M
 rickshaw/MS
 ricochet/GMDS
 ricotta/M
+rictus
 rid/S
 riddance/M
 ridden
@@ -39737,6 +39794,7 @@ ride/MZGRS
 rider/M
 riderless
 ridership/M
+rideshare/SM
 ridge/MGDS
 ridgepole/SM
 ridgy
@@ -39892,6 +39950,7 @@ robin/MS
 robocall/SGMD
 robot/MS
 robotic/S
+roboticist/SM
 robotics/M
 robotize/GDS
 robust/RYPT
@@ -41833,10 +41892,12 @@ sighs
 sight/GMDYSJ
 sighting/M
 sightless
+sightline/SM
 sightly/UTR
 sightread
 sightseeing/M
 sightseer/MS
+sigil/SM
 sigma/MS
 sign's/C
 sign/AFCGDS
@@ -41996,6 +42057,7 @@ sitarist/MS
 sitcom/SM
 site/MGDS
 sitemap/SM
+sitrep/SM
 sitter/SM
 sitting/SM
 situ
@@ -42032,6 +42094,7 @@ skeet/ZMR
 skein/MS
 skeletal
 skeleton/SM
+skeletonize/GDS
 skeptic/SM
 skeptical/Y
 skepticism/M
@@ -43137,6 +43200,7 @@ spoiled/U
 spoiler/CM
 spoilsport/MS
 spoke/SM
+spoked
 spoken/U
 spokesman/M
 spokesmen
@@ -43767,6 +43831,7 @@ stouthearted
 stoutness/M
 stove/SM
 stovepipe/SM
+stovetop/SM
 stow/DGS
 stowage/M
 stowaway/MS
@@ -43806,6 +43871,7 @@ strap/US
 strapless/MS
 strapped/U
 strapping/M
+strappy/RT
 strata
 stratagem/SM
 strategic/S
@@ -43818,6 +43884,7 @@ stratification/M
 stratify/DSGN
 stratosphere/SM
 stratospheric
+stratovolcano/SM
 stratum/M
 stratus/M
 straw/GSMD
@@ -46273,6 +46340,7 @@ transgenic
 transgress/GDS
 transgression/SM
 transgressor/SM
+transhumanist/SM
 transience/M
 transiency/M
 transient/SMY
@@ -46297,6 +46365,7 @@ translocation
 translucence/M
 translucency/M
 translucent/Y
+translunar
 transmigrate/GNDS
 transmigration/M
 transmissible
@@ -47004,6 +47073,7 @@ uncle/SM
 unclean/DRPT
 uncleanly/T
 unclear/DRT
+unclip/GDS
 uncomfortable
 uncommon/T
 uncompelling
@@ -47059,6 +47129,7 @@ underdeveloped
 underdevelopment/M
 underdog/SM
 underdone
+underdressed
 underemployed
 underemployment/M
 underestimate/DSMGNX
@@ -47083,6 +47154,7 @@ undergrowth/M
 underhand
 underhanded/PY
 underhandedness/M
+underhoof
 underinflated
 underlain
 underlay/SM
@@ -47290,6 +47362,7 @@ unlovely/TR
 unloving
 unlucky/T
 unmanly/T
+unmapped
 unmarried
 unmeaning
 unmentionable/MS
@@ -47300,6 +47373,7 @@ unmissable
 unmistakably
 unmoral
 unmovable
+unmoving
 unmusical
 unnecessary
 unnerving/Y
@@ -47355,6 +47429,7 @@ unset
 unshakable
 unshakably
 unshapely
+unshed
 unshockable
 unshorn
 unsightliness/M
@@ -47391,6 +47466,7 @@ untouchable/MS
 untoward
 untraveled
 untrue/RT
+untrusting
 untrustworthy
 untruth/M
 unutterable
@@ -47472,6 +47548,7 @@ upstate/M
 upstream
 upstroke/SM
 upsurge/MGDS
+upswept
 upswing/MS
 uptake/SM
 uptempo
@@ -48468,6 +48545,7 @@ wayfaring/SM
 waylaid
 waylay/RSZG
 waylayer/M
+waypoint/SM
 wayside/SM
 wayward/PY
 waywardness/M
@@ -48878,6 +48956,7 @@ williwaw/MS
 willow/SM
 willowy
 willpower/M
+willy-nilly
 willy/S
 wilt/MDSG
 wily/RTP
@@ -48932,6 +49011,7 @@ winegrower/MS
 winemaker/MS
 winery/SM
 wing/MDRZG
+wingback/SM
 wingding/MS
 wingless
 winglike
