@@ -1,0 +1,12 @@
+# Technical terms dictionary affix file
+# Universal technical terms applicable to all languages
+
+SET UTF-8
+
+# Suffix for plural
+SFX S Y 1
+SFX S   0     s          .
+
+# Suffix for possessive
+SFX M Y 1
+SFX M   0     's         .
