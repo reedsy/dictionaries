@@ -2,7 +2,7 @@
 
 ## Overview
 
-This analysis evaluates 96 words for inclusion in five English dictionaries (en_AU, en_CA, en_GB, en_US, en_ZA) for use in a novel writing application.
+This analysis evaluates 96 words from the provided list for inclusion in five English dictionaries (en_AU, en_CA, en_GB, en_US, en_ZA) for use in a novel writing application. Of these, 94 words were analyzed for the English dictionaries, and 2 brand names (TikTok, Uber) were moved to a separate technical dictionary per rule 5.
 
 ## Files
 
@@ -36,6 +36,8 @@ This analysis evaluates 96 words for inclusion in five English dictionaries (en_
 - "duffel" → higher confidence in US (0.95) than duffle
 
 #### Names (Transformed to Lowercase per Rule 6)
+
+**Note**: Names were provided with initial capitals but transformed to lowercase per rule 6. In actual spellchecker usage, these would typically be stored in lowercase but should accept both capitalized and lowercase forms during spellchecking.
 
 **Commonly recognized internationally:**
 - liam, theo, rebecca, connor, aiden → accepted across all dictionaries (0.8-0.95)
@@ -71,7 +73,7 @@ This analysis evaluates 96 words for inclusion in five English dictionaries (en_
 
 #### Rejected/Low Confidence
 
-- "se" → rejected across all dictionaries (0.4) - too ambiguous, likely abbreviation
+- "se" → rejected across all dictionaries (0.4) - too ambiguous on its own, possibly fragment or abbreviation
 
 ### Confidence Score Reasoning
 

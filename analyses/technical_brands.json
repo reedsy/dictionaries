@@ -11,7 +11,7 @@
   },
   {
     "word": "Netflix",
-    "reason": "Technical brand name applicable in all languages (mentioned in problem statement as example)",
+    "reason": "Technical brand name applicable in all languages (provided as example in acceptance rules)",
     "confidence": 1.0
   }
 ]

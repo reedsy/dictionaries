@@ -662,11 +662,11 @@
   {
     "word": "se",
     "dictionaries": [
-      { "dictionary": "en_AU", "accepted": false, "confidence": 0.4 },
-      { "dictionary": "en_CA", "accepted": false, "confidence": 0.4 },
-      { "dictionary": "en_GB", "accepted": false, "confidence": 0.4 },
-      { "dictionary": "en_US", "accepted": false, "confidence": 0.4 },
-      { "dictionary": "en_ZA", "accepted": false, "confidence": 0.4 }
+      { "dictionary": "en_AU", "accepted": false, "confidence": 0.2 },
+      { "dictionary": "en_CA", "accepted": false, "confidence": 0.2 },
+      { "dictionary": "en_GB", "accepted": false, "confidence": 0.2 },
+      { "dictionary": "en_US", "accepted": false, "confidence": 0.2 },
+      { "dictionary": "en_ZA", "accepted": false, "confidence": 0.2 }
     ]
   },
   {
