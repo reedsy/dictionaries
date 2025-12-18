@@ -1,0 +1,942 @@
+[
+  {
+    "word": "else's",
+    "dictionaries": [
+      { "dictionary": "en_AU", "accepted": true, "confidence": 0.9 },
+      { "dictionary": "en_CA", "accepted": true, "confidence": 0.9 },
+      { "dictionary": "en_GB", "accepted": true, "confidence": 0.9 },
+      { "dictionary": "en_US", "accepted": true, "confidence": 0.9 },
+      { "dictionary": "en_ZA", "accepted": true, "confidence": 0.9 }
+    ]
+  },
+  {
+    "word": "snuck",
+    "dictionaries": [
+      { "dictionary": "en_AU", "accepted": true, "confidence": 0.8 },
+      { "dictionary": "en_CA", "accepted": true, "confidence": 0.9 },
+      { "dictionary": "en_GB", "accepted": true, "confidence": 0.7 },
+      { "dictionary": "en_US", "accepted": true, "confidence": 0.95 },
+      { "dictionary": "en_ZA", "accepted": true, "confidence": 0.75 }
+    ]
+  },
+  {
+    "word": "grey",
+    "dictionaries": [
+      { "dictionary": "en_AU", "accepted": true, "confidence": 0.95 },
+      { "dictionary": "en_CA", "accepted": true, "confidence": 0.9 },
+      { "dictionary": "en_GB", "accepted": true, "confidence": 0.95 },
+      { "dictionary": "en_US", "accepted": false, "confidence": 0.3 },
+      { "dictionary": "en_ZA", "accepted": true, "confidence": 0.9 }
+    ]
+  },
+  {
+    "word": "amongst",
+    "dictionaries": [
+      { "dictionary": "en_AU", "accepted": true, "confidence": 0.95 },
+      { "dictionary": "en_CA", "accepted": true, "confidence": 0.85 },
+      { "dictionary": "en_GB", "accepted": true, "confidence": 0.95 },
+      { "dictionary": "en_US", "accepted": true, "confidence": 0.8 },
+      { "dictionary": "en_ZA", "accepted": true, "confidence": 0.9 }
+    ]
+  },
+  {
+    "word": "amidst",
+    "dictionaries": [
+      { "dictionary": "en_AU", "accepted": true, "confidence": 0.95 },
+      { "dictionary": "en_CA", "accepted": true, "confidence": 0.85 },
+      { "dictionary": "en_GB", "accepted": true, "confidence": 0.95 },
+      { "dictionary": "en_US", "accepted": true, "confidence": 0.8 },
+      { "dictionary": "en_ZA", "accepted": true, "confidence": 0.9 }
+    ]
+  },
+  {
+    "word": "colour",
+    "dictionaries": [
+      { "dictionary": "en_AU", "accepted": true, "confidence": 1.0 },
+      { "dictionary": "en_CA", "accepted": true, "confidence": 1.0 },
+      { "dictionary": "en_GB", "accepted": true, "confidence": 1.0 },
+      { "dictionary": "en_US", "accepted": false, "confidence": 0.1 },
+      { "dictionary": "en_ZA", "accepted": true, "confidence": 1.0 }
+    ]
+  },
+  {
+    "word": "c'mon",
+    "dictionaries": [
+      { "dictionary": "en_AU", "accepted": true, "confidence": 0.85 },
+      { "dictionary": "en_CA", "accepted": true, "confidence": 0.85 },
+      { "dictionary": "en_GB", "accepted": true, "confidence": 0.85 },
+      { "dictionary": "en_US", "accepted": true, "confidence": 0.85 },
+      { "dictionary": "en_ZA", "accepted": true, "confidence": 0.85 }
+    ]
+  },
+  {
+    "word": "ok",
+    "dictionaries": [
+      { "dictionary": "en_AU", "accepted": true, "confidence": 0.9 },
+      { "dictionary": "en_CA", "accepted": true, "confidence": 0.9 },
+      { "dictionary": "en_GB", "accepted": true, "confidence": 0.9 },
+      { "dictionary": "en_US", "accepted": true, "confidence": 0.9 },
+      { "dictionary": "en_ZA", "accepted": true, "confidence": 0.9 }
+    ]
+  },
+  {
+    "word": "unmoving",
+    "dictionaries": [
+      { "dictionary": "en_AU", "accepted": true, "confidence": 0.95 },
+      { "dictionary": "en_CA", "accepted": true, "confidence": 0.95 },
+      { "dictionary": "en_GB", "accepted": true, "confidence": 0.95 },
+      { "dictionary": "en_US", "accepted": true, "confidence": 0.95 },
+      { "dictionary": "en_ZA", "accepted": true, "confidence": 0.95 }
+    ]
+  },
+  {
+    "word": "liam",
+    "dictionaries": [
+      { "dictionary": "en_AU", "accepted": true, "confidence": 0.9 },
+      { "dictionary": "en_CA", "accepted": true, "confidence": 0.85 },
+      { "dictionary": "en_GB", "accepted": true, "confidence": 0.95 },
+      { "dictionary": "en_US", "accepted": true, "confidence": 0.9 },
+      { "dictionary": "en_ZA", "accepted": true, "confidence": 0.85 }
+    ]
+  },
+  {
+    "word": "favourite",
+    "dictionaries": [
+      { "dictionary": "en_AU", "accepted": true, "confidence": 1.0 },
+      { "dictionary": "en_CA", "accepted": true, "confidence": 1.0 },
+      { "dictionary": "en_GB", "accepted": true, "confidence": 1.0 },
+      { "dictionary": "en_US", "accepted": false, "confidence": 0.1 },
+      { "dictionary": "en_ZA", "accepted": true, "confidence": 1.0 }
+    ]
+  },
+  {
+    "word": "hm",
+    "dictionaries": [
+      { "dictionary": "en_AU", "accepted": true, "confidence": 0.8 },
+      { "dictionary": "en_CA", "accepted": true, "confidence": 0.8 },
+      { "dictionary": "en_GB", "accepted": true, "confidence": 0.8 },
+      { "dictionary": "en_US", "accepted": true, "confidence": 0.8 },
+      { "dictionary": "en_ZA", "accepted": true, "confidence": 0.8 }
+    ]
+  },
+  {
+    "word": "theo",
+    "dictionaries": [
+      { "dictionary": "en_AU", "accepted": true, "confidence": 0.85 },
+      { "dictionary": "en_CA", "accepted": true, "confidence": 0.8 },
+      { "dictionary": "en_GB", "accepted": true, "confidence": 0.9 },
+      { "dictionary": "en_US", "accepted": true, "confidence": 0.85 },
+      { "dictionary": "en_ZA", "accepted": true, "confidence": 0.8 }
+    ]
+  },
+  {
+    "word": "oversized",
+    "dictionaries": [
+      { "dictionary": "en_AU", "accepted": true, "confidence": 0.95 },
+      { "dictionary": "en_CA", "accepted": true, "confidence": 0.95 },
+      { "dictionary": "en_GB", "accepted": true, "confidence": 0.95 },
+      { "dictionary": "en_US", "accepted": true, "confidence": 0.95 },
+      { "dictionary": "en_ZA", "accepted": true, "confidence": 0.95 }
+    ]
+  },
+  {
+    "word": "de",
+    "dictionaries": [
+      { "dictionary": "en_AU", "accepted": true, "confidence": 0.7 },
+      { "dictionary": "en_CA", "accepted": true, "confidence": 0.7 },
+      { "dictionary": "en_GB", "accepted": true, "confidence": 0.7 },
+      { "dictionary": "en_US", "accepted": true, "confidence": 0.7 },
+      { "dictionary": "en_ZA", "accepted": true, "confidence": 0.7 }
+    ]
+  },
+  {
+    "word": "fae",
+    "dictionaries": [
+      { "dictionary": "en_AU", "accepted": true, "confidence": 0.85 },
+      { "dictionary": "en_CA", "accepted": true, "confidence": 0.85 },
+      { "dictionary": "en_GB", "accepted": true, "confidence": 0.9 },
+      { "dictionary": "en_US", "accepted": true, "confidence": 0.85 },
+      { "dictionary": "en_ZA", "accepted": true, "confidence": 0.85 }
+    ]
+  },
+  {
+    "word": "mhm",
+    "dictionaries": [
+      { "dictionary": "en_AU", "accepted": true, "confidence": 0.8 },
+      { "dictionary": "en_CA", "accepted": true, "confidence": 0.8 },
+      { "dictionary": "en_GB", "accepted": true, "confidence": 0.8 },
+      { "dictionary": "en_US", "accepted": true, "confidence": 0.8 },
+      { "dictionary": "en_ZA", "accepted": true, "confidence": 0.8 }
+    ]
+  },
+  {
+    "word": "axe",
+    "dictionaries": [
+      { "dictionary": "en_AU", "accepted": true, "confidence": 1.0 },
+      { "dictionary": "en_CA", "accepted": true, "confidence": 0.9 },
+      { "dictionary": "en_GB", "accepted": true, "confidence": 1.0 },
+      { "dictionary": "en_US", "accepted": false, "confidence": 0.3 },
+      { "dictionary": "en_ZA", "accepted": true, "confidence": 0.95 }
+    ]
+  },
+  {
+    "word": "y'know",
+    "dictionaries": [
+      { "dictionary": "en_AU", "accepted": true, "confidence": 0.85 },
+      { "dictionary": "en_CA", "accepted": true, "confidence": 0.85 },
+      { "dictionary": "en_GB", "accepted": true, "confidence": 0.85 },
+      { "dictionary": "en_US", "accepted": true, "confidence": 0.85 },
+      { "dictionary": "en_ZA", "accepted": true, "confidence": 0.85 }
+    ]
+  },
+  {
+    "word": "kai",
+    "dictionaries": [
+      { "dictionary": "en_AU", "accepted": true, "confidence": 0.75 },
+      { "dictionary": "en_CA", "accepted": true, "confidence": 0.7 },
+      { "dictionary": "en_GB", "accepted": true, "confidence": 0.75 },
+      { "dictionary": "en_US", "accepted": true, "confidence": 0.8 },
+      { "dictionary": "en_ZA", "accepted": true, "confidence": 0.7 }
+    ]
+  },
+  {
+    "word": "realised",
+    "dictionaries": [
+      { "dictionary": "en_AU", "accepted": true, "confidence": 1.0 },
+      { "dictionary": "en_CA", "accepted": true, "confidence": 0.95 },
+      { "dictionary": "en_GB", "accepted": true, "confidence": 1.0 },
+      { "dictionary": "en_US", "accepted": false, "confidence": 0.1 },
+      { "dictionary": "en_ZA", "accepted": true, "confidence": 1.0 }
+    ]
+  },
+  {
+    "word": "dreamt",
+    "dictionaries": [
+      { "dictionary": "en_AU", "accepted": true, "confidence": 0.95 },
+      { "dictionary": "en_CA", "accepted": true, "confidence": 0.85 },
+      { "dictionary": "en_GB", "accepted": true, "confidence": 0.95 },
+      { "dictionary": "en_US", "accepted": true, "confidence": 0.8 },
+      { "dictionary": "en_ZA", "accepted": true, "confidence": 0.9 }
+    ]
+  },
+  {
+    "word": "colours",
+    "dictionaries": [
+      { "dictionary": "en_AU", "accepted": true, "confidence": 1.0 },
+      { "dictionary": "en_CA", "accepted": true, "confidence": 1.0 },
+      { "dictionary": "en_GB", "accepted": true, "confidence": 1.0 },
+      { "dictionary": "en_US", "accepted": false, "confidence": 0.1 },
+      { "dictionary": "en_ZA", "accepted": true, "confidence": 1.0 }
+    ]
+  },
+  {
+    "word": "café",
+    "dictionaries": [
+      { "dictionary": "en_AU", "accepted": true, "confidence": 0.95 },
+      { "dictionary": "en_CA", "accepted": true, "confidence": 0.95 },
+      { "dictionary": "en_GB", "accepted": true, "confidence": 0.95 },
+      { "dictionary": "en_US", "accepted": true, "confidence": 0.95 },
+      { "dictionary": "en_ZA", "accepted": true, "confidence": 0.95 }
+    ]
+  },
+  {
+    "word": "kneeled",
+    "dictionaries": [
+      { "dictionary": "en_AU", "accepted": true, "confidence": 0.7 },
+      { "dictionary": "en_CA", "accepted": true, "confidence": 0.8 },
+      { "dictionary": "en_GB", "accepted": true, "confidence": 0.7 },
+      { "dictionary": "en_US", "accepted": true, "confidence": 0.9 },
+      { "dictionary": "en_ZA", "accepted": true, "confidence": 0.75 }
+    ]
+  },
+  {
+    "word": "sigil",
+    "dictionaries": [
+      { "dictionary": "en_AU", "accepted": true, "confidence": 0.9 },
+      { "dictionary": "en_CA", "accepted": true, "confidence": 0.9 },
+      { "dictionary": "en_GB", "accepted": true, "confidence": 0.9 },
+      { "dictionary": "en_US", "accepted": true, "confidence": 0.9 },
+      { "dictionary": "en_ZA", "accepted": true, "confidence": 0.9 }
+    ]
+  },
+  {
+    "word": "pinky",
+    "dictionaries": [
+      { "dictionary": "en_AU", "accepted": true, "confidence": 0.85 },
+      { "dictionary": "en_CA", "accepted": true, "confidence": 0.9 },
+      { "dictionary": "en_GB", "accepted": true, "confidence": 0.75 },
+      { "dictionary": "en_US", "accepted": true, "confidence": 0.95 },
+      { "dictionary": "en_ZA", "accepted": true, "confidence": 0.8 }
+    ]
+  },
+  {
+    "word": "pov",
+    "dictionaries": [
+      { "dictionary": "en_AU", "accepted": true, "confidence": 0.85 },
+      { "dictionary": "en_CA", "accepted": true, "confidence": 0.85 },
+      { "dictionary": "en_GB", "accepted": true, "confidence": 0.85 },
+      { "dictionary": "en_US", "accepted": true, "confidence": 0.85 },
+      { "dictionary": "en_ZA", "accepted": true, "confidence": 0.85 }
+    ]
+  },
+  {
+    "word": "another's",
+    "dictionaries": [
+      { "dictionary": "en_AU", "accepted": true, "confidence": 0.9 },
+      { "dictionary": "en_CA", "accepted": true, "confidence": 0.9 },
+      { "dictionary": "en_GB", "accepted": true, "confidence": 0.9 },
+      { "dictionary": "en_US", "accepted": true, "confidence": 0.9 },
+      { "dictionary": "en_ZA", "accepted": true, "confidence": 0.9 }
+    ]
+  },
+  {
+    "word": "unshed",
+    "dictionaries": [
+      { "dictionary": "en_AU", "accepted": true, "confidence": 0.85 },
+      { "dictionary": "en_CA", "accepted": true, "confidence": 0.85 },
+      { "dictionary": "en_GB", "accepted": true, "confidence": 0.85 },
+      { "dictionary": "en_US", "accepted": true, "confidence": 0.85 },
+      { "dictionary": "en_ZA", "accepted": true, "confidence": 0.85 }
+    ]
+  },
+  {
+    "word": "woah",
+    "dictionaries": [
+      { "dictionary": "en_AU", "accepted": true, "confidence": 0.8 },
+      { "dictionary": "en_CA", "accepted": true, "confidence": 0.8 },
+      { "dictionary": "en_GB", "accepted": true, "confidence": 0.8 },
+      { "dictionary": "en_US", "accepted": true, "confidence": 0.8 },
+      { "dictionary": "en_ZA", "accepted": true, "confidence": 0.8 }
+    ]
+  },
+  {
+    "word": "realise",
+    "dictionaries": [
+      { "dictionary": "en_AU", "accepted": true, "confidence": 1.0 },
+      { "dictionary": "en_CA", "accepted": true, "confidence": 0.95 },
+      { "dictionary": "en_GB", "accepted": true, "confidence": 1.0 },
+      { "dictionary": "en_US", "accepted": false, "confidence": 0.1 },
+      { "dictionary": "en_ZA", "accepted": true, "confidence": 1.0 }
+    ]
+  },
+  {
+    "word": "mmm",
+    "dictionaries": [
+      { "dictionary": "en_AU", "accepted": true, "confidence": 0.8 },
+      { "dictionary": "en_CA", "accepted": true, "confidence": 0.8 },
+      { "dictionary": "en_GB", "accepted": true, "confidence": 0.8 },
+      { "dictionary": "en_US", "accepted": true, "confidence": 0.8 },
+      { "dictionary": "en_ZA", "accepted": true, "confidence": 0.8 }
+    ]
+  },
+  {
+    "word": "ew",
+    "dictionaries": [
+      { "dictionary": "en_AU", "accepted": true, "confidence": 0.75 },
+      { "dictionary": "en_CA", "accepted": true, "confidence": 0.75 },
+      { "dictionary": "en_GB", "accepted": true, "confidence": 0.75 },
+      { "dictionary": "en_US", "accepted": true, "confidence": 0.75 },
+      { "dictionary": "en_ZA", "accepted": true, "confidence": 0.75 }
+    ]
+  },
+  {
+    "word": "teleported",
+    "dictionaries": [
+      { "dictionary": "en_AU", "accepted": true, "confidence": 0.9 },
+      { "dictionary": "en_CA", "accepted": true, "confidence": 0.9 },
+      { "dictionary": "en_GB", "accepted": true, "confidence": 0.9 },
+      { "dictionary": "en_US", "accepted": true, "confidence": 0.9 },
+      { "dictionary": "en_ZA", "accepted": true, "confidence": 0.9 }
+    ]
+  },
+  {
+    "word": "centre",
+    "dictionaries": [
+      { "dictionary": "en_AU", "accepted": true, "confidence": 1.0 },
+      { "dictionary": "en_CA", "accepted": true, "confidence": 1.0 },
+      { "dictionary": "en_GB", "accepted": true, "confidence": 1.0 },
+      { "dictionary": "en_US", "accepted": false, "confidence": 0.1 },
+      { "dictionary": "en_ZA", "accepted": true, "confidence": 1.0 }
+    ]
+  },
+  {
+    "word": "yay",
+    "dictionaries": [
+      { "dictionary": "en_AU", "accepted": true, "confidence": 0.85 },
+      { "dictionary": "en_CA", "accepted": true, "confidence": 0.85 },
+      { "dictionary": "en_GB", "accepted": true, "confidence": 0.85 },
+      { "dictionary": "en_US", "accepted": true, "confidence": 0.85 },
+      { "dictionary": "en_ZA", "accepted": true, "confidence": 0.85 }
+    ]
+  },
+  {
+    "word": "duffel",
+    "dictionaries": [
+      { "dictionary": "en_AU", "accepted": true, "confidence": 0.85 },
+      { "dictionary": "en_CA", "accepted": true, "confidence": 0.9 },
+      { "dictionary": "en_GB", "accepted": true, "confidence": 0.8 },
+      { "dictionary": "en_US", "accepted": true, "confidence": 0.95 },
+      { "dictionary": "en_ZA", "accepted": true, "confidence": 0.85 }
+    ]
+  },
+  {
+    "word": "half-hearted",
+    "dictionaries": [
+      { "dictionary": "en_AU", "accepted": true, "confidence": 0.95 },
+      { "dictionary": "en_CA", "accepted": true, "confidence": 0.95 },
+      { "dictionary": "en_GB", "accepted": true, "confidence": 0.95 },
+      { "dictionary": "en_US", "accepted": true, "confidence": 0.95 },
+      { "dictionary": "en_ZA", "accepted": true, "confidence": 0.95 }
+    ]
+  },
+  {
+    "word": "meds",
+    "dictionaries": [
+      { "dictionary": "en_AU", "accepted": true, "confidence": 0.85 },
+      { "dictionary": "en_CA", "accepted": true, "confidence": 0.85 },
+      { "dictionary": "en_GB", "accepted": true, "confidence": 0.85 },
+      { "dictionary": "en_US", "accepted": true, "confidence": 0.85 },
+      { "dictionary": "en_ZA", "accepted": true, "confidence": 0.85 }
+    ]
+  },
+  {
+    "word": "transformative",
+    "dictionaries": [
+      { "dictionary": "en_AU", "accepted": true, "confidence": 0.95 },
+      { "dictionary": "en_CA", "accepted": true, "confidence": 0.95 },
+      { "dictionary": "en_GB", "accepted": true, "confidence": 0.95 },
+      { "dictionary": "en_US", "accepted": true, "confidence": 0.95 },
+      { "dictionary": "en_ZA", "accepted": true, "confidence": 0.95 }
+    ]
+  },
+  {
+    "word": "aww",
+    "dictionaries": [
+      { "dictionary": "en_AU", "accepted": true, "confidence": 0.8 },
+      { "dictionary": "en_CA", "accepted": true, "confidence": 0.8 },
+      { "dictionary": "en_GB", "accepted": true, "confidence": 0.8 },
+      { "dictionary": "en_US", "accepted": true, "confidence": 0.8 },
+      { "dictionary": "en_ZA", "accepted": true, "confidence": 0.8 }
+    ]
+  },
+  {
+    "word": "ahh",
+    "dictionaries": [
+      { "dictionary": "en_AU", "accepted": true, "confidence": 0.8 },
+      { "dictionary": "en_CA", "accepted": true, "confidence": 0.8 },
+      { "dictionary": "en_GB", "accepted": true, "confidence": 0.8 },
+      { "dictionary": "en_US", "accepted": true, "confidence": 0.8 },
+      { "dictionary": "en_ZA", "accepted": true, "confidence": 0.8 }
+    ]
+  },
+  {
+    "word": "animalistic",
+    "dictionaries": [
+      { "dictionary": "en_AU", "accepted": true, "confidence": 0.9 },
+      { "dictionary": "en_CA", "accepted": true, "confidence": 0.9 },
+      { "dictionary": "en_GB", "accepted": true, "confidence": 0.9 },
+      { "dictionary": "en_US", "accepted": true, "confidence": 0.9 },
+      { "dictionary": "en_ZA", "accepted": true, "confidence": 0.9 }
+    ]
+  },
+  {
+    "word": "vu",
+    "dictionaries": [
+      { "dictionary": "en_AU", "accepted": true, "confidence": 0.7 },
+      { "dictionary": "en_CA", "accepted": true, "confidence": 0.7 },
+      { "dictionary": "en_GB", "accepted": true, "confidence": 0.7 },
+      { "dictionary": "en_US", "accepted": true, "confidence": 0.7 },
+      { "dictionary": "en_ZA", "accepted": true, "confidence": 0.7 }
+    ]
+  },
+  {
+    "word": "sigils",
+    "dictionaries": [
+      { "dictionary": "en_AU", "accepted": true, "confidence": 0.9 },
+      { "dictionary": "en_CA", "accepted": true, "confidence": 0.9 },
+      { "dictionary": "en_GB", "accepted": true, "confidence": 0.9 },
+      { "dictionary": "en_US", "accepted": true, "confidence": 0.9 },
+      { "dictionary": "en_ZA", "accepted": true, "confidence": 0.9 }
+    ]
+  },
+  {
+    "word": "undead",
+    "dictionaries": [
+      { "dictionary": "en_AU", "accepted": true, "confidence": 0.9 },
+      { "dictionary": "en_CA", "accepted": true, "confidence": 0.9 },
+      { "dictionary": "en_GB", "accepted": true, "confidence": 0.9 },
+      { "dictionary": "en_US", "accepted": true, "confidence": 0.9 },
+      { "dictionary": "en_ZA", "accepted": true, "confidence": 0.9 }
+    ]
+  },
+  {
+    "word": "matter-of-factly",
+    "dictionaries": [
+      { "dictionary": "en_AU", "accepted": true, "confidence": 0.9 },
+      { "dictionary": "en_CA", "accepted": true, "confidence": 0.9 },
+      { "dictionary": "en_GB", "accepted": true, "confidence": 0.9 },
+      { "dictionary": "en_US", "accepted": true, "confidence": 0.9 },
+      { "dictionary": "en_ZA", "accepted": true, "confidence": 0.9 }
+    ]
+  },
+  {
+    "word": "asher",
+    "dictionaries": [
+      { "dictionary": "en_AU", "accepted": true, "confidence": 0.75 },
+      { "dictionary": "en_CA", "accepted": true, "confidence": 0.75 },
+      { "dictionary": "en_GB", "accepted": true, "confidence": 0.8 },
+      { "dictionary": "en_US", "accepted": true, "confidence": 0.85 },
+      { "dictionary": "en_ZA", "accepted": true, "confidence": 0.75 }
+    ]
+  },
+  {
+    "word": "dumbass",
+    "dictionaries": [
+      { "dictionary": "en_AU", "accepted": true, "confidence": 0.7 },
+      { "dictionary": "en_CA", "accepted": true, "confidence": 0.75 },
+      { "dictionary": "en_GB", "accepted": true, "confidence": 0.65 },
+      { "dictionary": "en_US", "accepted": true, "confidence": 0.85 },
+      { "dictionary": "en_ZA", "accepted": true, "confidence": 0.7 }
+    ]
+  },
+  {
+    "word": "where'd",
+    "dictionaries": [
+      { "dictionary": "en_AU", "accepted": true, "confidence": 0.85 },
+      { "dictionary": "en_CA", "accepted": true, "confidence": 0.85 },
+      { "dictionary": "en_GB", "accepted": true, "confidence": 0.85 },
+      { "dictionary": "en_US", "accepted": true, "confidence": 0.85 },
+      { "dictionary": "en_ZA", "accepted": true, "confidence": 0.85 }
+    ]
+  },
+  {
+    "word": "duffle",
+    "dictionaries": [
+      { "dictionary": "en_AU", "accepted": true, "confidence": 0.8 },
+      { "dictionary": "en_CA", "accepted": true, "confidence": 0.85 },
+      { "dictionary": "en_GB", "accepted": true, "confidence": 0.9 },
+      { "dictionary": "en_US", "accepted": true, "confidence": 0.75 },
+      { "dictionary": "en_ZA", "accepted": true, "confidence": 0.85 }
+    ]
+  },
+  {
+    "word": "el",
+    "dictionaries": [
+      { "dictionary": "en_AU", "accepted": true, "confidence": 0.6 },
+      { "dictionary": "en_CA", "accepted": true, "confidence": 0.6 },
+      { "dictionary": "en_GB", "accepted": true, "confidence": 0.6 },
+      { "dictionary": "en_US", "accepted": true, "confidence": 0.6 },
+      { "dictionary": "en_ZA", "accepted": true, "confidence": 0.6 }
+    ]
+  },
+  {
+    "word": "unamused",
+    "dictionaries": [
+      { "dictionary": "en_AU", "accepted": true, "confidence": 0.9 },
+      { "dictionary": "en_CA", "accepted": true, "confidence": 0.9 },
+      { "dictionary": "en_GB", "accepted": true, "confidence": 0.9 },
+      { "dictionary": "en_US", "accepted": true, "confidence": 0.9 },
+      { "dictionary": "en_ZA", "accepted": true, "confidence": 0.9 }
+    ]
+  },
+  {
+    "word": "umm",
+    "dictionaries": [
+      { "dictionary": "en_AU", "accepted": true, "confidence": 0.8 },
+      { "dictionary": "en_CA", "accepted": true, "confidence": 0.8 },
+      { "dictionary": "en_GB", "accepted": true, "confidence": 0.8 },
+      { "dictionary": "en_US", "accepted": true, "confidence": 0.8 },
+      { "dictionary": "en_ZA", "accepted": true, "confidence": 0.8 }
+    ]
+  },
+  {
+    "word": "aiden",
+    "dictionaries": [
+      { "dictionary": "en_AU", "accepted": true, "confidence": 0.8 },
+      { "dictionary": "en_CA", "accepted": true, "confidence": 0.85 },
+      { "dictionary": "en_GB", "accepted": true, "confidence": 0.85 },
+      { "dictionary": "en_US", "accepted": true, "confidence": 0.9 },
+      { "dictionary": "en_ZA", "accepted": true, "confidence": 0.8 }
+    ]
+  },
+  {
+    "word": "ptsd",
+    "dictionaries": [
+      { "dictionary": "en_AU", "accepted": true, "confidence": 0.95 },
+      { "dictionary": "en_CA", "accepted": true, "confidence": 0.95 },
+      { "dictionary": "en_GB", "accepted": true, "confidence": 0.95 },
+      { "dictionary": "en_US", "accepted": true, "confidence": 0.95 },
+      { "dictionary": "en_ZA", "accepted": true, "confidence": 0.95 }
+    ]
+  },
+  {
+    "word": "elven",
+    "dictionaries": [
+      { "dictionary": "en_AU", "accepted": true, "confidence": 0.9 },
+      { "dictionary": "en_CA", "accepted": true, "confidence": 0.9 },
+      { "dictionary": "en_GB", "accepted": true, "confidence": 0.9 },
+      { "dictionary": "en_US", "accepted": true, "confidence": 0.9 },
+      { "dictionary": "en_ZA", "accepted": true, "confidence": 0.9 }
+    ]
+  },
+  {
+    "word": "coloured",
+    "dictionaries": [
+      { "dictionary": "en_AU", "accepted": true, "confidence": 1.0 },
+      { "dictionary": "en_CA", "accepted": true, "confidence": 1.0 },
+      { "dictionary": "en_GB", "accepted": true, "confidence": 1.0 },
+      { "dictionary": "en_US", "accepted": false, "confidence": 0.1 },
+      { "dictionary": "en_ZA", "accepted": true, "confidence": 1.0 }
+    ]
+  },
+  {
+    "word": "flowy",
+    "dictionaries": [
+      { "dictionary": "en_AU", "accepted": true, "confidence": 0.8 },
+      { "dictionary": "en_CA", "accepted": true, "confidence": 0.8 },
+      { "dictionary": "en_GB", "accepted": true, "confidence": 0.8 },
+      { "dictionary": "en_US", "accepted": true, "confidence": 0.8 },
+      { "dictionary": "en_ZA", "accepted": true, "confidence": 0.8 }
+    ]
+  },
+  {
+    "word": "what'd",
+    "dictionaries": [
+      { "dictionary": "en_AU", "accepted": true, "confidence": 0.85 },
+      { "dictionary": "en_CA", "accepted": true, "confidence": 0.85 },
+      { "dictionary": "en_GB", "accepted": true, "confidence": 0.85 },
+      { "dictionary": "en_US", "accepted": true, "confidence": 0.85 },
+      { "dictionary": "en_ZA", "accepted": true, "confidence": 0.85 }
+    ]
+  },
+  {
+    "word": "positivity",
+    "dictionaries": [
+      { "dictionary": "en_AU", "accepted": true, "confidence": 0.95 },
+      { "dictionary": "en_CA", "accepted": true, "confidence": 0.95 },
+      { "dictionary": "en_GB", "accepted": true, "confidence": 0.95 },
+      { "dictionary": "en_US", "accepted": true, "confidence": 0.95 },
+      { "dictionary": "en_ZA", "accepted": true, "confidence": 0.95 }
+    ]
+  },
+  {
+    "word": "theo's",
+    "dictionaries": [
+      { "dictionary": "en_AU", "accepted": true, "confidence": 0.85 },
+      { "dictionary": "en_CA", "accepted": true, "confidence": 0.8 },
+      { "dictionary": "en_GB", "accepted": true, "confidence": 0.9 },
+      { "dictionary": "en_US", "accepted": true, "confidence": 0.85 },
+      { "dictionary": "en_ZA", "accepted": true, "confidence": 0.8 }
+    ]
+  },
+  {
+    "word": "creeped",
+    "dictionaries": [
+      { "dictionary": "en_AU", "accepted": true, "confidence": 0.85 },
+      { "dictionary": "en_CA", "accepted": true, "confidence": 0.85 },
+      { "dictionary": "en_GB", "accepted": true, "confidence": 0.85 },
+      { "dictionary": "en_US", "accepted": true, "confidence": 0.85 },
+      { "dictionary": "en_ZA", "accepted": true, "confidence": 0.85 }
+    ]
+  },
+  {
+    "word": "bestie",
+    "dictionaries": [
+      { "dictionary": "en_AU", "accepted": true, "confidence": 0.9 },
+      { "dictionary": "en_CA", "accepted": true, "confidence": 0.85 },
+      { "dictionary": "en_GB", "accepted": true, "confidence": 0.85 },
+      { "dictionary": "en_US", "accepted": true, "confidence": 0.85 },
+      { "dictionary": "en_ZA", "accepted": true, "confidence": 0.85 }
+    ]
+  },
+  {
+    "word": "anymore",
+    "dictionaries": [
+      { "dictionary": "en_AU", "accepted": true, "confidence": 0.95 },
+      { "dictionary": "en_CA", "accepted": true, "confidence": 0.95 },
+      { "dictionary": "en_GB", "accepted": true, "confidence": 0.95 },
+      { "dictionary": "en_US", "accepted": true, "confidence": 0.95 },
+      { "dictionary": "en_ZA", "accepted": true, "confidence": 0.95 }
+    ]
+  },
+  {
+    "word": "se",
+    "dictionaries": [
+      { "dictionary": "en_AU", "accepted": false, "confidence": 0.4 },
+      { "dictionary": "en_CA", "accepted": false, "confidence": 0.4 },
+      { "dictionary": "en_GB", "accepted": false, "confidence": 0.4 },
+      { "dictionary": "en_US", "accepted": false, "confidence": 0.4 },
+      { "dictionary": "en_ZA", "accepted": false, "confidence": 0.4 }
+    ]
+  },
+  {
+    "word": "liam's",
+    "dictionaries": [
+      { "dictionary": "en_AU", "accepted": true, "confidence": 0.9 },
+      { "dictionary": "en_CA", "accepted": true, "confidence": 0.85 },
+      { "dictionary": "en_GB", "accepted": true, "confidence": 0.95 },
+      { "dictionary": "en_US", "accepted": true, "confidence": 0.9 },
+      { "dictionary": "en_ZA", "accepted": true, "confidence": 0.85 }
+    ]
+  },
+  {
+    "word": "elara",
+    "dictionaries": [
+      { "dictionary": "en_AU", "accepted": true, "confidence": 0.7 },
+      { "dictionary": "en_CA", "accepted": true, "confidence": 0.7 },
+      { "dictionary": "en_GB", "accepted": true, "confidence": 0.7 },
+      { "dictionary": "en_US", "accepted": true, "confidence": 0.7 },
+      { "dictionary": "en_ZA", "accepted": true, "confidence": 0.7 }
+    ]
+  },
+  {
+    "word": "favour",
+    "dictionaries": [
+      { "dictionary": "en_AU", "accepted": true, "confidence": 1.0 },
+      { "dictionary": "en_CA", "accepted": true, "confidence": 1.0 },
+      { "dictionary": "en_GB", "accepted": true, "confidence": 1.0 },
+      { "dictionary": "en_US", "accepted": false, "confidence": 0.1 },
+      { "dictionary": "en_ZA", "accepted": true, "confidence": 1.0 }
+    ]
+  },
+  {
+    "word": "there'd",
+    "dictionaries": [
+      { "dictionary": "en_AU", "accepted": true, "confidence": 0.85 },
+      { "dictionary": "en_CA", "accepted": true, "confidence": 0.85 },
+      { "dictionary": "en_GB", "accepted": true, "confidence": 0.85 },
+      { "dictionary": "en_US", "accepted": true, "confidence": 0.85 },
+      { "dictionary": "en_ZA", "accepted": true, "confidence": 0.85 }
+    ]
+  },
+  {
+    "word": "thorne",
+    "dictionaries": [
+      { "dictionary": "en_AU", "accepted": true, "confidence": 0.65 },
+      { "dictionary": "en_CA", "accepted": true, "confidence": 0.65 },
+      { "dictionary": "en_GB", "accepted": true, "confidence": 0.7 },
+      { "dictionary": "en_US", "accepted": true, "confidence": 0.65 },
+      { "dictionary": "en_ZA", "accepted": true, "confidence": 0.65 }
+    ]
+  },
+  {
+    "word": "nyx",
+    "dictionaries": [
+      { "dictionary": "en_AU", "accepted": true, "confidence": 0.7 },
+      { "dictionary": "en_CA", "accepted": true, "confidence": 0.7 },
+      { "dictionary": "en_GB", "accepted": true, "confidence": 0.75 },
+      { "dictionary": "en_US", "accepted": true, "confidence": 0.7 },
+      { "dictionary": "en_ZA", "accepted": true, "confidence": 0.7 }
+    ]
+  },
+  {
+    "word": "whatever's",
+    "dictionaries": [
+      { "dictionary": "en_AU", "accepted": true, "confidence": 0.85 },
+      { "dictionary": "en_CA", "accepted": true, "confidence": 0.85 },
+      { "dictionary": "en_GB", "accepted": true, "confidence": 0.85 },
+      { "dictionary": "en_US", "accepted": true, "confidence": 0.85 },
+      { "dictionary": "en_ZA", "accepted": true, "confidence": 0.85 }
+    ]
+  },
+  {
+    "word": "behaviour",
+    "dictionaries": [
+      { "dictionary": "en_AU", "accepted": true, "confidence": 1.0 },
+      { "dictionary": "en_CA", "accepted": true, "confidence": 1.0 },
+      { "dictionary": "en_GB", "accepted": true, "confidence": 1.0 },
+      { "dictionary": "en_US", "accepted": false, "confidence": 0.1 },
+      { "dictionary": "en_ZA", "accepted": true, "confidence": 1.0 }
+    ]
+  },
+  {
+    "word": "ol",
+    "dictionaries": [
+      { "dictionary": "en_AU", "accepted": true, "confidence": 0.75 },
+      { "dictionary": "en_CA", "accepted": true, "confidence": 0.75 },
+      { "dictionary": "en_GB", "accepted": true, "confidence": 0.75 },
+      { "dictionary": "en_US", "accepted": true, "confidence": 0.75 },
+      { "dictionary": "en_ZA", "accepted": true, "confidence": 0.75 }
+    ]
+  },
+  {
+    "word": "luca",
+    "dictionaries": [
+      { "dictionary": "en_AU", "accepted": true, "confidence": 0.75 },
+      { "dictionary": "en_CA", "accepted": true, "confidence": 0.75 },
+      { "dictionary": "en_GB", "accepted": true, "confidence": 0.8 },
+      { "dictionary": "en_US", "accepted": true, "confidence": 0.8 },
+      { "dictionary": "en_ZA", "accepted": true, "confidence": 0.75 }
+    ]
+  },
+  {
+    "word": "learnt",
+    "dictionaries": [
+      { "dictionary": "en_AU", "accepted": true, "confidence": 1.0 },
+      { "dictionary": "en_CA", "accepted": true, "confidence": 0.85 },
+      { "dictionary": "en_GB", "accepted": true, "confidence": 1.0 },
+      { "dictionary": "en_US", "accepted": false, "confidence": 0.3 },
+      { "dictionary": "en_ZA", "accepted": true, "confidence": 0.95 }
+    ]
+  },
+  {
+    "word": "fuckin",
+    "dictionaries": [
+      { "dictionary": "en_AU", "accepted": true, "confidence": 0.7 },
+      { "dictionary": "en_CA", "accepted": true, "confidence": 0.7 },
+      { "dictionary": "en_GB", "accepted": true, "confidence": 0.7 },
+      { "dictionary": "en_US", "accepted": true, "confidence": 0.7 },
+      { "dictionary": "en_ZA", "accepted": true, "confidence": 0.7 }
+    ]
+  },
+  {
+    "word": "comms",
+    "dictionaries": [
+      { "dictionary": "en_AU", "accepted": true, "confidence": 0.85 },
+      { "dictionary": "en_CA", "accepted": true, "confidence": 0.85 },
+      { "dictionary": "en_GB", "accepted": true, "confidence": 0.85 },
+      { "dictionary": "en_US", "accepted": true, "confidence": 0.85 },
+      { "dictionary": "en_ZA", "accepted": true, "confidence": 0.85 }
+    ]
+  },
+  {
+    "word": "shhh",
+    "dictionaries": [
+      { "dictionary": "en_AU", "accepted": true, "confidence": 0.8 },
+      { "dictionary": "en_CA", "accepted": true, "confidence": 0.8 },
+      { "dictionary": "en_GB", "accepted": true, "confidence": 0.8 },
+      { "dictionary": "en_US", "accepted": true, "confidence": 0.8 },
+      { "dictionary": "en_ZA", "accepted": true, "confidence": 0.8 }
+    ]
+  },
+  {
+    "word": "amara",
+    "dictionaries": [
+      { "dictionary": "en_AU", "accepted": true, "confidence": 0.7 },
+      { "dictionary": "en_CA", "accepted": true, "confidence": 0.7 },
+      { "dictionary": "en_GB", "accepted": true, "confidence": 0.7 },
+      { "dictionary": "en_US", "accepted": true, "confidence": 0.7 },
+      { "dictionary": "en_ZA", "accepted": true, "confidence": 0.7 }
+    ]
+  },
+  {
+    "word": "arse",
+    "dictionaries": [
+      { "dictionary": "en_AU", "accepted": true, "confidence": 1.0 },
+      { "dictionary": "en_CA", "accepted": true, "confidence": 0.8 },
+      { "dictionary": "en_GB", "accepted": true, "confidence": 1.0 },
+      { "dictionary": "en_US", "accepted": false, "confidence": 0.3 },
+      { "dictionary": "en_ZA", "accepted": true, "confidence": 0.95 }
+    ]
+  },
+  {
+    "word": "doin",
+    "dictionaries": [
+      { "dictionary": "en_AU", "accepted": true, "confidence": 0.75 },
+      { "dictionary": "en_CA", "accepted": true, "confidence": 0.75 },
+      { "dictionary": "en_GB", "accepted": true, "confidence": 0.75 },
+      { "dictionary": "en_US", "accepted": true, "confidence": 0.75 },
+      { "dictionary": "en_ZA", "accepted": true, "confidence": 0.75 }
+    ]
+  },
+  {
+    "word": "haha",
+    "dictionaries": [
+      { "dictionary": "en_AU", "accepted": true, "confidence": 0.85 },
+      { "dictionary": "en_CA", "accepted": true, "confidence": 0.85 },
+      { "dictionary": "en_GB", "accepted": true, "confidence": 0.85 },
+      { "dictionary": "en_US", "accepted": true, "confidence": 0.85 },
+      { "dictionary": "en_ZA", "accepted": true, "confidence": 0.85 }
+    ]
+  },
+  {
+    "word": "honour",
+    "dictionaries": [
+      { "dictionary": "en_AU", "accepted": true, "confidence": 1.0 },
+      { "dictionary": "en_CA", "accepted": true, "confidence": 1.0 },
+      { "dictionary": "en_GB", "accepted": true, "confidence": 1.0 },
+      { "dictionary": "en_US", "accepted": false, "confidence": 0.1 },
+      { "dictionary": "en_ZA", "accepted": true, "confidence": 1.0 }
+    ]
+  },
+  {
+    "word": "wha",
+    "dictionaries": [
+      { "dictionary": "en_AU", "accepted": true, "confidence": 0.7 },
+      { "dictionary": "en_CA", "accepted": true, "confidence": 0.7 },
+      { "dictionary": "en_GB", "accepted": true, "confidence": 0.7 },
+      { "dictionary": "en_US", "accepted": true, "confidence": 0.7 },
+      { "dictionary": "en_ZA", "accepted": true, "confidence": 0.7 }
+    ]
+  },
+  {
+    "word": "recognise",
+    "dictionaries": [
+      { "dictionary": "en_AU", "accepted": true, "confidence": 1.0 },
+      { "dictionary": "en_CA", "accepted": true, "confidence": 0.95 },
+      { "dictionary": "en_GB", "accepted": true, "confidence": 1.0 },
+      { "dictionary": "en_US", "accepted": false, "confidence": 0.1 },
+      { "dictionary": "en_ZA", "accepted": true, "confidence": 1.0 }
+    ]
+  },
+  {
+    "word": "selene",
+    "dictionaries": [
+      { "dictionary": "en_AU", "accepted": true, "confidence": 0.7 },
+      { "dictionary": "en_CA", "accepted": true, "confidence": 0.7 },
+      { "dictionary": "en_GB", "accepted": true, "confidence": 0.75 },
+      { "dictionary": "en_US", "accepted": true, "confidence": 0.7 },
+      { "dictionary": "en_ZA", "accepted": true, "confidence": 0.7 }
+    ]
+  },
+  {
+    "word": "goin",
+    "dictionaries": [
+      { "dictionary": "en_AU", "accepted": true, "confidence": 0.75 },
+      { "dictionary": "en_CA", "accepted": true, "confidence": 0.75 },
+      { "dictionary": "en_GB", "accepted": true, "confidence": 0.75 },
+      { "dictionary": "en_US", "accepted": true, "confidence": 0.75 },
+      { "dictionary": "en_ZA", "accepted": true, "confidence": 0.75 }
+    ]
+  },
+  {
+    "word": "shifter",
+    "dictionaries": [
+      { "dictionary": "en_AU", "accepted": true, "confidence": 0.85 },
+      { "dictionary": "en_CA", "accepted": true, "confidence": 0.85 },
+      { "dictionary": "en_GB", "accepted": true, "confidence": 0.85 },
+      { "dictionary": "en_US", "accepted": true, "confidence": 0.85 },
+      { "dictionary": "en_ZA", "accepted": true, "confidence": 0.85 }
+    ]
+  },
+  {
+    "word": "connor",
+    "dictionaries": [
+      { "dictionary": "en_AU", "accepted": true, "confidence": 0.8 },
+      { "dictionary": "en_CA", "accepted": true, "confidence": 0.85 },
+      { "dictionary": "en_GB", "accepted": true, "confidence": 0.85 },
+      { "dictionary": "en_US", "accepted": true, "confidence": 0.85 },
+      { "dictionary": "en_ZA", "accepted": true, "confidence": 0.8 }
+    ]
+  },
+  {
+    "word": "fisted",
+    "dictionaries": [
+      { "dictionary": "en_AU", "accepted": true, "confidence": 0.8 },
+      { "dictionary": "en_CA", "accepted": true, "confidence": 0.8 },
+      { "dictionary": "en_GB", "accepted": true, "confidence": 0.8 },
+      { "dictionary": "en_US", "accepted": true, "confidence": 0.8 },
+      { "dictionary": "en_ZA", "accepted": true, "confidence": 0.8 }
+    ]
+  },
+  {
+    "word": "rebecca",
+    "dictionaries": [
+      { "dictionary": "en_AU", "accepted": true, "confidence": 0.85 },
+      { "dictionary": "en_CA", "accepted": true, "confidence": 0.85 },
+      { "dictionary": "en_GB", "accepted": true, "confidence": 0.9 },
+      { "dictionary": "en_US", "accepted": true, "confidence": 0.9 },
+      { "dictionary": "en_ZA", "accepted": true, "confidence": 0.85 }
+    ]
+  }
+]

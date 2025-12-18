@@ -1,0 +1,17 @@
+[
+  {
+    "word": "TikTok",
+    "reason": "Technical brand name applicable in all languages",
+    "confidence": 1.0
+  },
+  {
+    "word": "Uber",
+    "reason": "Technical brand name applicable in all languages",
+    "confidence": 1.0
+  },
+  {
+    "word": "Netflix",
+    "reason": "Technical brand name applicable in all languages (mentioned in problem statement as example)",
+    "confidence": 1.0
+  }
+]
