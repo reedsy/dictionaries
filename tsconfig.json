@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "es2022",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "types": [
+      "node"
+    ],
+    "rootDir": ".",
+    "baseUrl": ".",
+    "esModuleInterop": false,
+    "noUnusedLocals": true,
+    "noImplicitAny": true,
+    "noEmit": true
+  },
+  "include": [
+    "**/*.{ts,mts,cts}",
+    "vitest.config.ts",
+  ]
+}

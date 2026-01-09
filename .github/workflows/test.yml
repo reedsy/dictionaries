@@ -1,0 +1,37 @@
+name: Lint, test & typecheck
+
+on:
+  pull_request_target:
+    types: [opened, synchronize, reopened]
+
+jobs:
+  ci:
+    name: Check types
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+    - name: Checkout (push)
+      if: ${{ github.event_name == 'push' }}
+      uses: actions/checkout@v6
+    - name: Checkout (pull request)
+      if: ${{ github.event_name == 'pull_request_target' }}
+      uses: actions/checkout@v6
+      with:
+        ref: ${{ github.event.pull_request.head.sha }}
+    - name: Setup Node
+      uses: actions/setup-node@v6
+      with:
+        node-version-file: ".nvmrc"
+        registry-url: "https://npm.pkg.github.com"
+        cache: "npm"
+    - name: NPM install
+      run: npm ci --ignore-scripts --no-audit --prefer-offline
+      env:
+        NODE_AUTH_TOKEN: ${{ secrets.REEDSY_BOT_PERSONAL_ACCESS_TOKEN }}
+    - name: Check types
+      run: npm run typecheck
+    - name: Lint
+      run: npm run lint
+    # TODO: uncomment once we have tests
+    # - name: Run tests
+    #   run: npm test -- --coverage --coverageThreshold='{"global":{"branches":100,"functions":100,"lines":100,"statements":100}}'
