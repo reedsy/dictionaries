@@ -21,6 +21,6 @@ export default defineConfig([
       },
     },
   },
-  globalIgnores(['.github/actions/reencode-dictionaries/*.{js,cjs}']),
+  globalIgnores(['.github/actions/reencode-dictionaries/*.js']),
   reedsy.configs.recommended,
 ]);

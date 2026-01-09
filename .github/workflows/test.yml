@@ -1,37 +1,41 @@
 name: Lint, test & typecheck
 
 on:
+  push:
+    branches:
+    - master
   pull_request_target:
-    types: [opened, synchronize, reopened]
 
 jobs:
-  ci:
-    name: Check types
+  build:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 10
     steps:
     - name: Checkout (push)
       if: ${{ github.event_name == 'push' }}
       uses: actions/checkout@v6
+    # Separate checkout action for pull_request_target, which needs to
+    # explicitly checkout the SHA
     - name: Checkout (pull request)
       if: ${{ github.event_name == 'pull_request_target' }}
       uses: actions/checkout@v6
       with:
         ref: ${{ github.event.pull_request.head.sha }}
-    - name: Setup Node
-      uses: actions/setup-node@v6
+    - uses: actions/setup-node@v6
       with:
-        node-version-file: ".nvmrc"
-        registry-url: "https://npm.pkg.github.com"
-        cache: "npm"
-    - name: NPM install
-      run: npm ci --ignore-scripts --no-audit --prefer-offline
+        node-version-file: '.nvmrc'
+        registry-url: 'https://npm.pkg.github.com'
+    - name: Install
+      # Skip post-install to avoid malicious scripts stealing PAT
+      run: npm install --ignore-scripts
       env:
+        # GITHUB_TOKEN can't access packages hosted in private repos,
+        # even within the same organisation
         NODE_AUTH_TOKEN: ${{ secrets.REEDSY_BOT_PERSONAL_ACCESS_TOKEN }}
-    - name: Check types
-      run: npm run typecheck
     - name: Lint
       run: npm run lint
+    - name: Typecheck
+      run: npm run typecheck
     # TODO: uncomment once we have tests
     # - name: Run tests
     #   run: npm test -- --coverage --coverageThreshold='{"global":{"branches":100,"functions":100,"lines":100,"statements":100}}'
