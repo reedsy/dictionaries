@@ -1,17 +1,18 @@
 {
   "compilerOptions": {
     "target": "es2022",
-    "module": "ESNext",
-    "moduleResolution": "bundler",
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
     "types": [
       "node"
     ],
     "rootDir": ".",
     "baseUrl": ".",
-    "esModuleInterop": false,
+    "esModuleInterop": true,
     "noUnusedLocals": true,
     "noImplicitAny": true,
-    "noEmit": true
+    "noEmit": false,
+    "skipLibCheck": false
   },
   "include": [
     "**/*.{ts,mts,cts}",
