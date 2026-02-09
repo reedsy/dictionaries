@@ -65,8 +65,8 @@ jobs:
           RAND=$(openssl rand -hex 4)
           BRANCH_NAME="reedsy-bot/add-words/${DICT_FLAT}/${RAND}"
 
-          git config user.name "Reedsy Automation Bot"
-          git config user.email "reedsy-automation-bot@users.noreply.github.com"
+          git config user.name "GitHub Action"
+          git config user.email "github@reedsy.com"
 
           git checkout -B "$BRANCH_NAME"
           git add .
