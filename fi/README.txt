@@ -1,2 +1,2 @@
-Source: https://github.com/fluks/fi-FI-mozilla-spellchecker
-Retrieved from the /dictionaries directory of the source repository.
+Source: https://github.com/fginter/hunspell-fi
+License: CC0 (Public Domain)
