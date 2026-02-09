@@ -4,6 +4,8 @@ on:
   schedule:
     - cron: '0 0 1 * *' # 12:00AM UTC, day 1 of the month
   workflow_dispatch:
+  push:
+    branches: ['word-analysis-action'] # todo: remove once testing complete
 
 permissions:
   contents: write
@@ -72,17 +74,17 @@ jobs:
           git push origin "$BRANCH_NAME"
 
           cat > pr-body.md <<EOF
-## Dictionary Update: ${{ matrix.dictionary }}
+          ## Dictionary Update: ${{ matrix.dictionary }}
 
-Automated dictionary updates from [Reedsy Dictionary Automation](https://github.com/reedsy/reedsy-dictionary-automation).
+          Automated dictionary updates from [Reedsy Dictionary Automation](https://github.com/reedsy/reedsy-dictionary-automation).
 
-- Words analysed: ${{ steps.process.outputs.words-analysed }}
-- Words added: ${{ steps.process.outputs.words-added }}
+          - Words analysed: ${{ steps.process.outputs.number-of-words-analysed }}
+          - Words added: ${{ steps.process.outputs.number-of-words-added }}
 
----
+          ---
 
-[Workflow run]($RUN_URL)
-EOF
+          [Workflow run]($RUN_URL)
+          EOF
 
           gh pr create \
             --draft \
