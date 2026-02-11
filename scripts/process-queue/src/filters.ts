@@ -9,12 +9,12 @@ export async function filterExistingWords(
   const factory = await loadModule();
 
   const files = await mountDictionary(dictionary, factory, dictPath);
-  const hunspell = factory.create(files.aff, files.dic);
-  hunspell.addDictionary(files.reedsyDic);
+  try {
+    const hunspell = factory.create(files.aff, files.dic);
+    hunspell.addDictionary(files.reedsyDic);
 
-  const filtered = words.filter((word) => !hunspell.spell(word));
-
-  unmountDictionary(files, factory);
-
-  return filtered;
+    return words.filter((word) => !hunspell.spell(word));
+  } finally {
+    unmountDictionary(files, factory);
+  }
 }

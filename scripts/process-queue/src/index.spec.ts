@@ -180,7 +180,7 @@ describe('word analysis script', () => {
 
     // Verify that report file is not created when analysis is empty
     expect(fsSyncMock.writeFileSync).not.toHaveBeenCalledWith(
-      expect.stringMatching(/analyses\/en_US\/reports\/\d{4}-\d{2}-\d{2}T\d{2}-\d{2}-\d{2}\.json$/),
+      expect.stringMatching(/analyses\/en\/en_US\/reports\/\d{4}-\d{2}-\d{2}T\d{2}-\d{2}-\d{2}\.json$/),
       expect.anything(),
       expect.anything(),
     );
@@ -493,6 +493,19 @@ describe('word analysis script', () => {
         prompt: expect.stringContaining('Hello') as string,
       }),
     );
+  });
+
+  it('skips JSON files with invalid timestamp filenames', async () => {
+    setupQueueMocks(['Hello']);
+    fsMock.readdir.mockResolvedValue(['1000.json', 'invalid.json'] as string[]);
+
+    vi.mocked(generateObject).mockResolvedValue({
+      object: [{word: 'Hello', transformedWord: 'hello', score: 1}],
+    } as Awaited<ReturnType<typeof generateObject>>);
+
+    await main();
+
+    expect(generateObject).toHaveBeenCalled();
   });
 
   it('excludes words with score below acceptance threshold', async () => {

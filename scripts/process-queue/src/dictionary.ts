@@ -17,7 +17,7 @@ export async function mountDictionary(
   return {
     aff: factory.mountBuffer(affBuffer, `${flattenedDictName}.aff`),
     dic: factory.mountBuffer(dictBuffer, `${flattenedDictName}.dic`),
-    reedsyDic: factory.mountBuffer(reedsyDictBuffer, `${flattenedDictName}.dic`),
+    reedsyDic: factory.mountBuffer(reedsyDictBuffer, `${flattenedDictName}_reedsy.dic`),
   };
 }
 
@@ -62,11 +62,11 @@ export async function updateReedsyDictionaries(
   const reedsyDictFile = path.join(dictPath, `${dictionary}_reedsy.dic`);
   const existingWords = await readDictionaryWords(reedsyDictFile);
   const mergedWords = mergeAndSortWords(existingWords, wordsToAdd);
+  const newWordsCount = mergedWords.length - existingWords.length;
   const contents = formatDictionaryFile(mergedWords);
-
   await writeFile(reedsyDictFile, contents, 'utf8');
-  logger.info(`${dictionary} dictionary updated successfully with ${wordsToAdd.length} new words`);
-  return wordsToAdd.length;
+  logger.info(`${dictionary} dictionary updated successfully with ${newWordsCount} new words`);
+  return newWordsCount;
 }
 
 async function readDictionaryWords(filePath: string): Promise<string[]> {

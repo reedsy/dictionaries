@@ -3,9 +3,9 @@ name: Process Queue CI
 on:
   push:
     branches: [master]
-    paths: ['./scripts/process-queue/**']
+    paths: ['scripts/process-queue/**']
   pull_request:
-    paths: ['./scripts/process-queue/**']
+    paths: ['scripts/process-queue/**']
 
 jobs:
   lint-test:

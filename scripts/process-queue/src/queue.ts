@@ -24,9 +24,9 @@ export async function retrieveWords(
   for (const file of files) {
     if (!file.endsWith('.json')) continue;
     const enqueuedOn = parseInt(file.replace('.json', ''), 10);
-    const enqueuedDate = new Date(enqueuedOn).toISOString();
+    if (Number.isNaN(enqueuedOn)) continue;
 
-    if (new Date(enqueuedDate).getTime() > lastChecked) {
+    if (enqueuedOn > lastChecked) {
       const filePath = path.join(dictQueueDir, file);
       const contents = await fs.readFile(filePath, 'utf-8');
       const fileWords = JSON.parse(contents) as string[];
