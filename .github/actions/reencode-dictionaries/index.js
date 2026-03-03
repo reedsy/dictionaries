@@ -12,6 +12,7 @@ function run() {
     getDictionariesFolders(rootPath).map(({ path, dictFolderName }) => {
       return {
         dictFolderName,
+        folderPath: path,
         dictionaries: getAffixDicPairs(path)
       }
     })
@@ -68,6 +69,12 @@ function getAffixDicPairs(folder) {
     .filter(({ dic }) => fs.existsSync(dic.path))
 }
 
+function getReedsyDicts(folder) {
+  return fs.readdirSync(folder, { withFileTypes: true })
+    .filter(dirent => dirent.isFile() && dirent.name.endsWith('_reedsy.dic'))
+    .map(dirent => path.resolve(folder, dirent.name));
+}
+
 function processDictionaryFoler(dictionaryFolder) {
   const resultFolderPath = createResultDictionaryFolder(dictionaryFolder.dictFolderName)
 
@@ -101,6 +108,11 @@ function processDictionaryFoler(dictionaryFolder) {
       changeAffFileEncodingSettingToUtf8(resultAffFilePath)
     }
   })
+
+  getReedsyDicts(dictionaryFolder.folderPath).forEach(dictPath => {
+    const destPath = path.resolve(resultFolderPath, path.basename(dictPath));
+    fs.copyFileSync(dictPath, destPath);
+  });
 }
 
 function createResultDictionaryFolder(dictionaryFolderName) {
