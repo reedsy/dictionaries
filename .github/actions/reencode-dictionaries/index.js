@@ -70,9 +70,8 @@ function getAffixDicPairs(folder) {
 }
 
 function getReedsyDicts(folder) {
-  return fs.readdirSync(folder, { withFileTypes: true })
-    .filter(dirent => dirent.isFile() && dirent.name.endsWith('_reedsy.dic'))
-    .map(dirent => path.resolve(folder, dirent.name));
+  return fs.globSync('*_reedsy.dic', { cwd: folder })
+    .map(file => path.resolve(folder, file));
 }
 
 function processDictionaryFoler(dictionaryFolder) {
