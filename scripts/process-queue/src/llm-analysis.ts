@@ -29,7 +29,6 @@ export async function runAnalysis(
 
   const {object} = await generateObject({
     model: anthropic(model),
-    temperature: 0,
     output: 'array',
     schema: wordAnalysisSchema,
     providerOptions: {
