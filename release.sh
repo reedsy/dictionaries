@@ -18,4 +18,5 @@ fi
 git tag $VERSION
 git push origin refs/tags/$VERSION
 
-npm publish
+cp package.json build/
+npm publish ./build
