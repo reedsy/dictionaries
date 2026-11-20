@@ -9,14 +9,16 @@ const buildPath = path.resolve(rootPath, 'build')
 
 function run() {
   try {
-    getDictionariesFolders(rootPath).map(({ path, dictFolderName }) => {
+    getDictionariesFolders(rootPath).map(({ paths, dictFolderName }) => {
       return {
         dictFolderName,
-        folderPath: path,
-        dictionaries: getAffixDicPairs(path)
+        dictionaries: paths.flatMap(getAffixDicPairs),
+        hyphenationFiles: paths.flatMap(getHyphenationFiles),
+        copiedFiles: paths.flatMap(getCopiedFiles),
+        licenseFiles: paths.flatMap(getLicenseFiles)
       }
     })
-      .filter(r => r.dictionaries.length)
+      .filter(r => r.dictionaries.length || r.hyphenationFiles.length || r.copiedFiles.length)
       .forEach(processDictionaryFoler)
 
   } catch (error) {
@@ -29,20 +31,17 @@ function getDictionariesFolders(basePath) {
   return fs.readdirSync(basePath, { withFileTypes: true })
     .filter(dirent => dirent.isDirectory())
     .filter(dirent => !dirent.name.startsWith('.'))
-    .filter(dirent => {
-      const subFolderPath = path.resolve(basePath, dirent.name);
-      return !!fs.readdirSync(subFolderPath, { withFileTypes: true })
-        .find(
-          dirent => dirent.isFile() && (
-            dirent.name.endsWith('.aff') ||
-            dirent.name.endsWith('.dic')
-          )
-        )
-    })
     .map(dirent => ({
-      path: path.resolve(basePath, dirent.name),
+      paths: getSourceFolders(path.resolve(basePath, dirent.name)),
       dictFolderName: dirent.name
     }))
+}
+
+// Some dictionaries follow the LibreOffice extension layout, which keeps
+// them in a nested dictionaries folder
+function getSourceFolders(folder) {
+  return [folder, path.resolve(folder, 'dictionaries')]
+    .filter(sourceFolder => fs.existsSync(sourceFolder))
 }
 
 
@@ -69,9 +68,22 @@ function getAffixDicPairs(folder) {
     .filter(({ dic }) => fs.existsSync(dic.path))
 }
 
-function getReedsyDicts(folder) {
+function getHyphenationFiles(folder) {
+  return fs.globSync('hyph_*.dic', { cwd: folder })
+    .map(file => path.resolve(folder, file));
+}
+
+function getCopiedFiles(folder) {
   return fs.globSync('*_reedsy.dic', { cwd: folder })
     .map(file => path.resolve(folder, file));
+}
+
+const licenseFileRegex = /readme|copying|copyright|authors|licen[cs]e|licentie|llicenci|gpl|mpl|lppl/i
+
+function getLicenseFiles(folder) {
+  return fs.readdirSync(folder, { withFileTypes: true })
+    .filter(dirent => dirent.isFile() && licenseFileRegex.test(dirent.name))
+    .map(dirent => path.resolve(folder, dirent.name));
 }
 
 function processDictionaryFoler(dictionaryFolder) {
@@ -108,10 +120,26 @@ function processDictionaryFoler(dictionaryFolder) {
     }
   })
 
-  getReedsyDicts(dictionaryFolder.folderPath).forEach(dictPath => {
-    const destPath = path.resolve(resultFolderPath, path.basename(dictPath));
-    fs.copyFileSync(dictPath, destPath);
+  dictionaryFolder.hyphenationFiles.forEach(filePath => {
+    const destPath = path.resolve(resultFolderPath, path.basename(filePath));
+    fs.writeFileSync(destPath, getUtf8HyphenationContent(filePath));
   });
+
+  dictionaryFolder.copiedFiles.concat(dictionaryFolder.licenseFiles).forEach(filePath => {
+    const destPath = path.resolve(resultFolderPath, path.basename(filePath));
+    fs.copyFileSync(filePath, destPath);
+  });
+}
+
+// Hyphenation files declare their encoding on the first line
+function getUtf8HyphenationContent(filePath) {
+  const content = fs.readFileSync(filePath)
+  const encoding = content.toString('latin1').split(/\r?\n/)[0].trim().toUpperCase()
+  if (encoding === 'UTF-8') return content
+
+  console.log('Found', encoding, 'hyphenation file', filePath, 'converting to UTF-8')
+  const converted = new Iconv(encoding, 'UTF-8').convert(content).toString()
+  return converted.replace(/^\S+/, 'UTF-8')
 }
 
 function createResultDictionaryFolder(dictionaryFolderName) {
